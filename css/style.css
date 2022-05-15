@@ -30,14 +30,10 @@ ol {
   list-style: none;
 }
 body {
-  display: flex;
   background: var(--unnamed-color-0a22f4) 0% 0% no-repeat padding-box;
   background: #0a22f4 0% 0% no-repeat padding-box;
   /* box-shadow: 0px 0px 50px #ffffff1f; */
   opacity: 0.95;
-}
-body {
-  font-family: "HelveticaNeue";
 }
 @font-face {
   font-family: "HelveticaNeue";
@@ -56,7 +52,19 @@ li {
 }
 .head {
   display: flex;
+  justify-content: space-between;
 }
-.logo img {
+/* .logo img {
   width: 100%;
+} */
+.navbar-ul {
+  display: flex;
+}
+.navbar-li {
+  margin-left: 43px;
+}
+.head-box {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
