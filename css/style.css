@@ -25,9 +25,6 @@ a {
   width: 160px;
   height: 55px;
 }
-.navbar-ul {
-  flex-wrap: wrap;
-}
 ul,
 ol {
   list-style: none;
@@ -56,4 +53,10 @@ body {
 }
 li {
   color: #ffffff;
+}
+.head {
+  display: flex;
+}
+.logo img {
+  width: 100%;
 }
