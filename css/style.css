@@ -66,6 +66,9 @@ body {
 .contact a {
   color: #000000;
 }
+.contact a:hover{
+    background-color: #f00000;
+}
 /* .contact {
   padding: 40px;
 } */
@@ -119,8 +122,12 @@ middle,
 } */
 .img_container{
 	display: flex;
-    flex-wrap: wrap;
-	justify-content: center;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
 }
 .img_item{
@@ -134,8 +141,13 @@ middle,
     height: auto;
 }
 .images {
-    justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 } 
