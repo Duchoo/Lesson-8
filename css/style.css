@@ -151,3 +151,28 @@ middle,
   justify-content: space-between;
   align-items: center;
 }
+.dots1 {
+  display: flex;
+}
+
+.dot23 {
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 30%;
+}
+
+.first {
+  margin-left: 655px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  margin-left: 50px;
+}
